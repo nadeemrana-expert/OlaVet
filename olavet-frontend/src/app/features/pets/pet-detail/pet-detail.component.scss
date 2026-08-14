@@ -1,0 +1,70 @@
+.detail-header {
+  margin-bottom: 1.5rem;
+}
+.back-link {
+  display: inline-block; margin-bottom: 0.75rem; color: #667eea;
+  text-decoration: none; font-size: 0.9rem;
+  &:hover { text-decoration: underline; }
+}
+.header-row {
+  display: flex; align-items: center; gap: 1rem;
+  h1 { margin: 0; font-size: 1.6rem; }
+  .btn-outline {
+    margin-left: auto; padding: 0.45rem 1rem; border: 1px solid #667eea;
+    color: #667eea; border-radius: 8px; text-decoration: none; font-weight: 600;
+    &:hover { background: #667eea; color: #fff; }
+  }
+}
+.pet-avatar {
+  width: 60px; height: 60px; background: #f0f4ff; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; font-size: 2rem;
+}
+.species-badge {
+  display: inline-block; padding: 2px 10px; border-radius: 12px;
+  font-size: 0.8rem; background: #edf2f7; color: #4a5568;
+}
+.tabs {
+  display: flex; gap: 0; margin-bottom: 1.5rem; border-bottom: 2px solid #eee;
+  button {
+    padding: 0.75rem 1.5rem; background: none; border: none; border-bottom: 2px solid transparent;
+    margin-bottom: -2px; cursor: pointer; font-weight: 500; color: #999; font-size: 0.95rem;
+    &.active { color: #667eea; border-bottom-color: #667eea; }
+    &:hover { color: #333; }
+  }
+}
+.info-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;
+}
+.info-card {
+  background: #fff; border-radius: 12px; padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  h3 { margin: 0 0 1rem; font-size: 1rem; color: #333; }
+}
+.info-row {
+  display: flex; justify-content: space-between; padding: 0.4rem 0;
+  border-bottom: 1px solid #f7f7f7;
+  span { color: #888; font-size: 0.9rem; }
+  strong { color: #333; font-size: 0.9rem; }
+}
+.link {
+  display: block; margin-top: 0.75rem; color: #667eea; font-size: 0.85rem;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+.medical-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.medical-card {
+  display: flex; gap: 1rem; background: #fff; border-radius: 10px;
+  padding: 1rem 1.25rem; box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+.record-date {
+  font-weight: 600; color: #667eea; font-size: 0.85rem; min-width: 100px;
+}
+.record-body { flex: 1; }
+.record-type {
+  display: inline-block; padding: 2px 8px; border-radius: 10px;
+  background: #e2e8f0; font-size: 0.75rem; font-weight: 600; color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+.diagnosis, .treatment { margin: 0.25rem 0; font-size: 0.9rem; color: #555; }
+.vet-badge { font-size: 0.8rem; color: #888; }
+.no-data { text-align: center; color: #aaa; padding: 2rem; }

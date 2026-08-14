@@ -1,0 +1,520 @@
+Using launch settings from f:\learning\Projects\OlaVet\OlaVet.API\Properties\launchSettings.json...
+Building...
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5027
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: f:\learning\Projects\OlaVet\OlaVet.API
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Request: GET /api/dashboard/stats from ::1
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10622]
+      Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'UserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10400]
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [PetOwner] AS [p]
+      WHERE [p].[IsActive] = CAST(1 AS bit)
+fail: OlaVet.API.Middleware.GlobalExceptionMiddleware[0]
+      Unhandled exception for GET /api/dashboard/stats
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+         at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+         at OlaVet.API.Controllers.DashboardController.GetStats() in f:\learning\Projects\OlaVet\OlaVet.API\Controllers\DashboardController.cs:line 48
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+         at OlaVet.API.Middleware.XssProtectionMiddleware.InvokeAsync(HttpContext context) in f:\learning\Projects\OlaVet\OlaVet.API\Middleware\XssProtectionMiddleware.cs:line 77
+         at OlaVet.API.Middleware.SensitiveDataMaskingMiddleware.InvokeAsync(HttpContext context) in f:\learning\Projects\OlaVet\OlaVet.API\Middleware\SensitiveDataMaskingMiddleware.cs:line 37
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+         at OlaVet.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in f:\learning\Projects\OlaVet\OlaVet.API\Middleware\GlobalExceptionMiddleware.cs:line 32
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Request: GET /api/dashboard/appointments from ::1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      SELECT [s].[StatusTypeId], [s].[AppliesTo], [s].[CreatedDate], [s].[Description], [s].[StatusName]
+      FROM [StatusType] AS [s]
+      WHERE [s].[StatusName] IN (N'Completed', N'Scheduled', N'Cancelled')
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (29ms) [Parameters=[@today='2026-02-13T00:00:00.0000000Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [VetAppointment] AS [v]
+      WHERE CONVERT(date, [v].[AppointmentDateTime]) = @today
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@weekAgo='2026-02-06T00:00:00.0000000Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [VetAppointment] AS [v]
+      WHERE [v].[AppointmentDateTime] >= @weekAgo
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (48ms) [Parameters=[@monthAgo='2026-01-13T00:00:00.0000000Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [VetAppointment] AS [v]
+      WHERE [v].[AppointmentDateTime] >= @monthAgo
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (96ms) [Parameters=[@completedId='3'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [VetAppointment] AS [v]
+      WHERE [v].[StatusTypeId] = @completedId
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (29ms) [Parameters=[@scheduledId='1'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [VetAppointment] AS [v]
+      WHERE [v].[StatusTypeId] = @scheduledId
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[@cancelledId='4'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [VetAppointment] AS [v]
+      WHERE [v].[StatusTypeId] = @cancelledId
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (8ms) [Parameters=[@today='2026-02-13T00:00:00.0000000Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [LabAppointment] AS [l]
+      WHERE CONVERT(date, [l].[AppointmentDateTime]) = @today
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@weekAgo='2026-02-06T00:00:00.0000000Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [LabAppointment] AS [l]
+      WHERE [l].[AppointmentDateTime] >= @weekAgo
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[@monthAgo='2026-01-13T00:00:00.0000000Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [LabAppointment] AS [l]
+      WHERE [l].[AppointmentDateTime] >= @monthAgo
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (46ms) [Parameters=[@completedId='3'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [LabAppointment] AS [l]
+      WHERE [l].[StatusTypeId] = @completedId
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[@scheduledId='1'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [LabAppointment] AS [l]
+      WHERE [l].[StatusTypeId] = @scheduledId
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Response: 200 for GET /api/dashboard/appointments
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Request: GET /api/dashboard/payments from ::1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (168ms) [Parameters=[@startDate='2026-01-13T13:29:43.4718634Z', @endDate='2026-02-13T13:29:43.4718663Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COALESCE(SUM([v].[Amount]), 0.0)
+      FROM [VetPayment] AS [v]
+      WHERE [v].[PaymentDateTime] >= @startDate AND [v].[PaymentDateTime] <= @endDate
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (116ms) [Parameters=[@startDate='2026-01-13T13:29:43.4718634Z', @endDate='2026-02-13T13:29:43.4718663Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COALESCE(SUM([l].[Amount]), 0.0)
+      FROM [LabPayment] AS [l]
+      WHERE [l].[PaymentDateTime] >= @startDate AND [l].[PaymentDateTime] <= @endDate
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (189ms) [Parameters=[@startDate='2026-01-13T13:29:43.4718634Z', @endDate='2026-02-13T13:29:43.4718663Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COALESCE(SUM([s].[Amount]), 0.0)
+      FROM [StorePayment] AS [s]
+      WHERE [s].[PaymentDateTime] >= @startDate AND [s].[PaymentDateTime] <= @endDate
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (48ms) [Parameters=[@startDate='2026-01-13T13:29:43.4718634Z', @endDate='2026-02-13T13:29:43.4718663Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [VetPayment] AS [v]
+      WHERE [v].[PaymentDateTime] >= @startDate AND [v].[PaymentDateTime] <= @endDate
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (15ms) [Parameters=[@startDate='2026-01-13T13:29:43.4718634Z', @endDate='2026-02-13T13:29:43.4718663Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [LabPayment] AS [l]
+      WHERE [l].[PaymentDateTime] >= @startDate AND [l].[PaymentDateTime] <= @endDate
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[@startDate='2026-01-13T13:29:43.4718634Z', @endDate='2026-02-13T13:29:43.4718663Z'], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [StorePayment] AS [s]
+      WHERE [s].[PaymentDateTime] >= @startDate AND [s].[PaymentDateTime] <= @endDate
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Response: 200 for GET /api/dashboard/payments
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Request: GET /api/dashboard/species-distribution from ::1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (130ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      SELECT [p].[Species], COUNT(*) AS [Count]
+      FROM [Pet] AS [p]
+      WHERE [p].[IsActive] = CAST(1 AS bit)
+      GROUP BY [p].[Species]
+      ORDER BY COUNT(*) DESC
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Response: 200 for GET /api/dashboard/species-distribution
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Request: GET /api/dashboard/recent-reviews?count=10 from ::1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[@p='10'], CommandType='Text', CommandTimeout='60']
+      SELECT N'Vet' AS [ReviewType], [v1].[VetReviewId] AS [ReviewId], [v1].[VetId] AS [EntityId], [v0].[VetName] AS [EntityName], [v1].[Rating], [v1].[Comments], [v1].[ReviewDateTime], [p].[OwnerName]
+      FROM (
+          SELECT TOP(@p) [v].[VetReviewId], [v].[Comments], [v].[PetOwnerId], [v].[Rating], [v].[ReviewDateTime], [v].[VetId]
+          FROM [VetReview] AS [v]
+          ORDER BY [v].[ReviewDateTime] DESC
+      ) AS [v1]
+      INNER JOIN [Vet] AS [v0] ON [v1].[VetId] = [v0].[VetId]
+      INNER JOIN [PetOwner] AS [p] ON [v1].[PetOwnerId] = [p].[PetOwnerId]
+      ORDER BY [v1].[ReviewDateTime] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (20ms) [Parameters=[@p='10'], CommandType='Text', CommandTimeout='60']
+      SELECT N'Lab' AS [ReviewType], [l1].[LabReviewId] AS [ReviewId], [l1].[LabId] AS [EntityId], [l0].[LabName] AS [EntityName], [l1].[Rating], [l1].[Comments], [l1].[ReviewDateTime], [p].[OwnerName]
+      FROM (
+          SELECT TOP(@p) [l].[LabReviewId], [l].[Comments], [l].[LabId], [l].[PetOwnerId], [l].[Rating], [l].[ReviewDateTime]
+          FROM [LabReview] AS [l]
+          ORDER BY [l].[ReviewDateTime] DESC
+      ) AS [l1]
+      INNER JOIN [Lab] AS [l0] ON [l1].[LabId] = [l0].[LabId]
+      INNER JOIN [PetOwner] AS [p] ON [l1].[PetOwnerId] = [p].[PetOwnerId]
+      ORDER BY [l1].[ReviewDateTime] DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (18ms) [Parameters=[@p='10'], CommandType='Text', CommandTimeout='60']
+      SELECT N'Store' AS [ReviewType], [s1].[StoreReviewId] AS [ReviewId], [s1].[StoreId] AS [EntityId], [s0].[StoreName] AS [EntityName], [s1].[Rating], [s1].[Comments], [s1].[ReviewDateTime], [p].[OwnerName]
+      FROM (
+          SELECT TOP(@p) [s].[StoreReviewId], [s].[Comments], [s].[PetOwnerId], [s].[Rating], [s].[ReviewDateTime], [s].[StoreId]
+          FROM [StoreReview] AS [s]
+          ORDER BY [s].[ReviewDateTime] DESC
+      ) AS [s1]
+      INNER JOIN [Store] AS [s0] ON [s1].[StoreId] = [s0].[StoreId]
+      INNER JOIN [PetOwner] AS [p] ON [s1].[PetOwnerId] = [p].[PetOwnerId]
+      ORDER BY [s1].[ReviewDateTime] DESC
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Response: 200 for GET /api/dashboard/recent-reviews
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Request: GET /api/dashboard/top-performers?count=5 from ::1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (115ms) [Parameters=[@p='5'], CommandType='Text', CommandTimeout='60']
+      SELECT TOP(@p) [v].[VetId]
+      FROM [VetReview] AS [v]
+      GROUP BY [v].[VetId]
+      ORDER BY AVG(CAST([v].[Rating] AS float)) DESC, COUNT(*) DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[@topVetIds1='957', @topVetIds2='1010', @topVetIds3='5469', @topVetIds4='4163', @topVetIds5='2946'], CommandType='Text', CommandTimeout='60']
+      SELECT [v].[VetId], [v].[ClinicLocation], [v].[ContactNumber], [v].[CreatedDate], [v].[Email], [v].[Fee], [v].[IsActive], [v].[LicenseNumber], [v].[ModifiedDate], [v].[Specialization], [v].[VetName], [v].[YearsOfExperience]
+      FROM [Vet] AS [v]
+      WHERE [v].[VetId] IN (@topVetIds1, @topVetIds2, @topVetIds3, @topVetIds4, @topVetIds5) AND [v].[IsActive] = CAST(1 AS bit)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (49ms) [Parameters=[@p='5'], CommandType='Text', CommandTimeout='60']
+      SELECT TOP(@p) [l].[LabId]
+      FROM [LabReview] AS [l]
+      GROUP BY [l].[LabId]
+      ORDER BY AVG(CAST([l].[Rating] AS float)) DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@topLabIds1='488', @topLabIds2='202', @topLabIds3='164', @topLabIds4='120', @topLabIds5='93'], CommandType='Text', CommandTimeout='60']
+      SELECT [l].[LabId], [l].[ContactNumber], [l].[CreatedDate], [l].[Discount], [l].[Experience], [l].[IsActive], [l].[LabAddress], [l].[LabName], [l].[ModifiedDate], [l].[Specialization], [l].[WaitTime]
+      FROM [Lab] AS [l]
+      WHERE [l].[LabId] IN (@topLabIds1, @topLabIds2, @topLabIds3, @topLabIds4, @topLabIds5)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (70ms) [Parameters=[@p='5'], CommandType='Text', CommandTimeout='60']
+      SELECT TOP(@p) [s].[StoreId]
+      FROM [StoreReview] AS [s]
+      GROUP BY [s].[StoreId]
+      ORDER BY AVG(CAST([s].[Rating] AS float)) DESC
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@topStoreIds1='930', @topStoreIds2='500', @topStoreIds3='417', @topStoreIds4='899', @topStoreIds5='721'], CommandType='Text', CommandTimeout='60']
+      SELECT [s].[StoreId], [s].[ClosingTime], [s].[ContactNumber], [s].[CreatedDate], [s].[IsActive], [s].[ModifiedDate], [s].[OpeningTime], [s].[Since], [s].[StoreAddress], [s].[StoreName]
+      FROM [Store] AS [s]
+      WHERE [s].[StoreId] IN (@topStoreIds1, @topStoreIds2, @topStoreIds3, @topStoreIds4, @topStoreIds5)
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Response: 200 for GET /api/dashboard/top-performers
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Request: GET /api/dashboard/revenue-trend?days=30 from ::1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (101ms) [Parameters=[@startDate='2026-01-14T00:00:00.0000000Z'], CommandType='Text', CommandTimeout='60']
+      SELECT [v0].[Key] AS [Date], COALESCE(SUM([v0].[Amount]), 0.0) AS [Amount]
+      FROM (
+          SELECT [v].[Amount], CONVERT(date, [v].[PaymentDateTime]) AS [Key]
+          FROM [VetPayment] AS [v]
+          WHERE [v].[PaymentDateTime] >= @startDate
+      ) AS [v0]
+      GROUP BY [v0].[Key]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (58ms) [Parameters=[@startDate='2026-01-14T00:00:00.0000000Z'], CommandType='Text', CommandTimeout='60']
+      SELECT [l0].[Key] AS [Date], COALESCE(SUM([l0].[Amount]), 0.0) AS [Amount]
+      FROM (
+          SELECT [l].[Amount], CONVERT(date, [l].[PaymentDateTime]) AS [Key]
+          FROM [LabPayment] AS [l]
+          WHERE [l].[PaymentDateTime] >= @startDate
+      ) AS [l0]
+      GROUP BY [l0].[Key]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (82ms) [Parameters=[@startDate='2026-01-14T00:00:00.0000000Z'], CommandType='Text', CommandTimeout='60']
+      SELECT [s0].[Key] AS [Date], COALESCE(SUM([s0].[Amount]), 0.0) AS [Amount]
+      FROM (
+          SELECT [s].[Amount], CONVERT(date, [s].[PaymentDateTime]) AS [Key]
+          FROM [StorePayment] AS [s]
+          WHERE [s].[PaymentDateTime] >= @startDate
+      ) AS [s0]
+      GROUP BY [s0].[Key]
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Response: 200 for GET /api/dashboard/revenue-trend
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Request: GET /api/dashboard/stats from ::1
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [PetOwner] AS [p]
+      WHERE [p].[IsActive] = CAST(1 AS bit)
+fail: OlaVet.API.Middleware.GlobalExceptionMiddleware[0]
+      Unhandled exception for GET /api/dashboard/stats
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+         at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+         at OlaVet.API.Controllers.DashboardController.GetStats() in f:\learning\Projects\OlaVet\OlaVet.API\Controllers\DashboardController.cs:line 48
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+         at OlaVet.API.Middleware.XssProtectionMiddleware.InvokeAsync(HttpContext context) in f:\learning\Projects\OlaVet\OlaVet.API\Middleware\XssProtectionMiddleware.cs:line 77
+         at OlaVet.API.Middleware.SensitiveDataMaskingMiddleware.InvokeAsync(HttpContext context) in f:\learning\Projects\OlaVet\OlaVet.API\Middleware\SensitiveDataMaskingMiddleware.cs:line 37
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+         at OlaVet.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in f:\learning\Projects\OlaVet\OlaVet.API\Middleware\GlobalExceptionMiddleware.cs:line 32
+info: OlaVet.API.Middleware.SensitiveDataMaskingMiddleware[0]
+      Request: GET /api/dashboard/stats from ::1
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred while iterating over the results of a query for context type 'OlaVet.Infrastructure.Data.OlaVetDbContext'.
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      SELECT COUNT(*)
+      FROM [PetOwner] AS [p]
+      WHERE [p].[IsActive] = CAST(1 AS bit)
+fail: OlaVet.API.Middleware.GlobalExceptionMiddleware[0]
+      Unhandled exception for GET /api/dashboard/stats
+      System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+         at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+         at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+         at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+         at OlaVet.API.Controllers.DashboardController.GetStats() in f:\learning\Projects\OlaVet\OlaVet.API\Controllers\DashboardController.cs:line 48
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+         at OlaVet.API.Middleware.XssProtectionMiddleware.InvokeAsync(HttpContext context) in f:\learning\Projects\OlaVet\OlaVet.API\Middleware\XssProtectionMiddleware.cs:line 77
+         at OlaVet.API.Middleware.SensitiveDataMaskingMiddleware.InvokeAsync(HttpContext context) in f:\learning\Projects\OlaVet\OlaVet.API\Middleware\SensitiveDataMaskingMiddleware.cs:line 37
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+         at OlaVet.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in f:\learning\Projects\OlaVet\OlaVet.API\Middleware\GlobalExceptionMiddleware.cs:line 32

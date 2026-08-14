@@ -1,0 +1,76 @@
+/* ── OlaVet Global Styles ── */
+
+// ── CSS Variables ──
+:root {
+  --primary: #667eea;
+  --primary-dark: #5a6fd6;
+  --accent: #764ba2;
+  --success: #48bb78;
+  --warning: #ecc94b;
+  --danger: #e53e3e;
+  --info: #4299e1;
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --text: #333333;
+  --text-muted: #888888;
+  --border: #e2e8f0;
+  --radius: 8px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+// ── Reset & Base ──
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a { color: var(--primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img { max-width: 100%; display: block; }
+
+// ── Badge Utility Classes (used by StatusBadgePipe) ──
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.badge-success { background: #c6f6d5; color: #276749; }
+.badge-warning { background: #fefcbf; color: #975a16; }
+.badge-danger  { background: #fed7d7; color: #9b2c2c; }
+.badge-info    { background: #bee3f8; color: #2a4365; }
+.badge-default { background: #edf2f7; color: #4a5568; }
+
+// ── Scrollbar ──
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #a0aec0; }
+
+// ── Utility ──
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}

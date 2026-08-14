@@ -1,0 +1,26 @@
+<aside class="sidebar" [class.collapsed]="collapsed">
+  <div class="sidebar-brand" (click)="toggle.emit()">
+    <span class="brand-icon">🐾</span>
+    @if (!collapsed) { <span class="brand-text">OlaVet</span> }
+  </div>
+
+  <nav class="sidebar-nav">
+    @for (item of visibleItems; track item.route) {
+      <a
+        [routerLink]="item.route"
+        routerLinkActive="active"
+        class="nav-item"
+        [title]="item.label"
+      >
+        <span class="nav-icon">{{ item.icon }}</span>
+        @if (!collapsed) { <span class="nav-label">{{ item.label }}</span> }
+      </a>
+    }
+  </nav>
+
+  <div class="sidebar-footer">
+    <button class="collapse-btn" (click)="toggle.emit()">
+      {{ collapsed ? '→' : '←' }}
+    </button>
+  </div>
+</aside>

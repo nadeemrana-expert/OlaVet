@@ -1,0 +1,921 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\learning\\Projects\\OlaVet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.DataSeeder\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.DataSeeder\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StoreReviewConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\StoreReviewConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabReviewConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\LabReviewConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\EducationQualificationConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\EducationQualificationConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\InventoryConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\InventoryConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentTestConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentTestConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\LabConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabPaymentConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\LabPaymentConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabTestConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\LabTestConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicalRecordConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\MedicalRecordConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\MedicineConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderDetailConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderDetailConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineTypeConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\MedicineTypeConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\PetConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\PetConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\PetOwnerConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\PetOwnerConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\RecordTypeConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\RecordTypeConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\ServiceConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\ServiceConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StatusTypeConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\StatusTypeConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StoreConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\StoreConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StorePaymentConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\StorePaymentConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentTypeConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentTypeConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetAvailabilityConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\VetAvailabilityConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\VetConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetPaymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\VetPaymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetReviewConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\Configurations\\VetReviewConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.API\\Contollers\\TestController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.API\\Contollers\\TestController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\OlaVetDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Data\\OlaVetDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Transactional\\MedicalRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Transactional\\MedicalRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Transactional\\LabAppointmentTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Transactional\\LabAppointmentTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Transactional\\LabAppointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Transactional\\LabAppointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Supporting\\VetAvailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Supporting\\VetAvailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Supporting\\Service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Supporting\\Service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Supporting\\EducationQualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Supporting\\EducationQualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Core\\Store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Core\\Store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Core\\LabTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Core\\LabTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Reviews\\LabReview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Reviews\\LabReview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Reviews\\VetReview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Reviews\\VetReview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Payments\\LabPayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Payments\\LabPayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\StatusType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Lookups\\StatusType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\MedicineType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Lookups\\MedicineType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\VetAppointmentType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Lookups\\VetAppointmentType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\RecordType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Entities\\Lookups\\RecordType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Common\\BaseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Common\\BaseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\OlaVet.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\OlaVet.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Infrastructure\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.DataSeeder\\OlaVet.DataSeeder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.DataSeeder\\OlaVet.DataSeeder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\OlaVet.Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OlaVet.Domain\\OlaVet.Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EducationQualificationConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\EducationQualificationConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\EducationQualificationConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\EducationQualificationConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\EducationQualificationConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:55:33.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\InventoryConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\InventoryConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\InventoryConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\InventoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:55:31.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LabReviewConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabReviewConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\LabReviewConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabReviewConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\LabReviewConfiguration.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:55:02.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoreReviewConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StoreReviewConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\StoreReviewConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StoreReviewConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\StoreReviewConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:26.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.DataSeeder\\Program.cs",
+              "RelativeDocumentMoniker": "OlaVet.DataSeeder\\Program.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.DataSeeder\\Program.cs",
+              "RelativeToolTip": "OlaVet.DataSeeder\\Program.cs",
+              "ViewState": "AgIAAEMGAAAAAAAAAAAAAF8GAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T00:35:55.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LabAppointmentConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:55:29.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LabAppointmentTestConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentTestConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentTestConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentTestConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\LabAppointmentTestConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:55:26.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LabConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\LabConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\LabConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:55:20.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LabPaymentConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabPaymentConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\LabPaymentConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabPaymentConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\LabPaymentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:55:11.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LabTestConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabTestConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\LabTestConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\LabTestConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\LabTestConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:55:01.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MedicalRecordConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicalRecordConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\MedicalRecordConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicalRecordConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\MedicalRecordConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:58.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MedicineConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\MedicineConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\MedicineConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:57.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedicineOrderConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:56.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MedicineOrderDetailConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderDetailConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderDetailConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderDetailConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\MedicineOrderDetailConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:54.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicineTypeConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\MedicineTypeConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\MedicineTypeConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\MedicineTypeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:53.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PetConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\PetConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\PetConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\PetConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\PetConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:50.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PetOwnerConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\PetOwnerConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\PetOwnerConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\PetOwnerConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\PetOwnerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:48.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RecordTypeConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\RecordTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\RecordTypeConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\RecordTypeConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\RecordTypeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:46.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\ServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\ServiceConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\ServiceConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\ServiceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:44.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StatusTypeConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StatusTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\StatusTypeConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StatusTypeConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\StatusTypeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:42.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StoreConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StoreConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\StoreConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StoreConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\StoreConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:39.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StorePaymentConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StorePaymentConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\StorePaymentConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\StorePaymentConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\StorePaymentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:33.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VetAppointmentTypeConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentTypeConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentTypeConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentTypeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:22.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VetAvailabilityConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetAvailabilityConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\VetAvailabilityConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetAvailabilityConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\VetAvailabilityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:17.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "VetReviewConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetReviewConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\VetReviewConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetReviewConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\VetReviewConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:54:05.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.API\\Contollers\\TestController.cs",
+              "RelativeDocumentMoniker": "OlaVet.API\\Contollers\\TestController.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.API\\Contollers\\TestController.cs",
+              "RelativeToolTip": "OlaVet.API\\Contollers\\TestController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAcwKIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:51:32.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.API\\appsettings.json",
+              "RelativeDocumentMoniker": "OlaVet.API\\appsettings.json",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.API\\appsettings.json",
+              "RelativeToolTip": "OlaVet.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-18T22:50:35.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VetAppointmentConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\VetAppointmentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:40:30.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.API\\Program.cs",
+              "RelativeDocumentMoniker": "OlaVet.API\\Program.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.API\\Program.cs",
+              "RelativeToolTip": "OlaVet.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:49:57.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OlaVetDbContext.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\OlaVetDbContext.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\OlaVetDbContext.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\OlaVetDbContext.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\OlaVetDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:46:46.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VetPaymentconfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetPaymentconfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\VetPaymentconfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetPaymentconfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\VetPaymentconfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:03:21.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VetConfiguration.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetConfiguration.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Data\\Configurations\\VetConfiguration.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Data\\Configurations\\VetConfiguration.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Data\\Configurations\\VetConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:28:58.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Transactional\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Transactional\\MedicalRecord.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Transactional\\MedicalRecord.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Transactional\\MedicalRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:43:19.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LabAppointmentTest.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Transactional\\LabAppointmentTest.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Transactional\\LabAppointmentTest.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Transactional\\LabAppointmentTest.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Transactional\\LabAppointmentTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:43:08.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LabAppointment.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Transactional\\LabAppointment.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Transactional\\LabAppointment.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Transactional\\LabAppointment.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Transactional\\LabAppointment.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:42:57.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "VetAvailability.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Supporting\\VetAvailability.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Supporting\\VetAvailability.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Supporting\\VetAvailability.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Supporting\\VetAvailability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:34:35.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EducationQualification.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Supporting\\EducationQualification.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Supporting\\EducationQualification.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Supporting\\EducationQualification.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Supporting\\EducationQualification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:33:55.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Store.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Core\\Store.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Core\\Store.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Core\\Store.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Core\\Store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:30:17.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Service.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Supporting\\Service.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Supporting\\Service.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Supporting\\Service.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Supporting\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:30:16.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LabTest.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Core\\LabTest.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Core\\LabTest.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Core\\LabTest.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Core\\LabTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:29:56.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LabReview.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Reviews\\LabReview.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Reviews\\LabReview.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Reviews\\LabReview.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Reviews\\LabReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:14:54.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "VetReview.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Reviews\\VetReview.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Reviews\\VetReview.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Reviews\\VetReview.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Reviews\\VetReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:14:42.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LabPayment.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Payments\\LabPayment.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Payments\\LabPayment.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Payments\\LabPayment.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Payments\\LabPayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:06:06.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MedicineType.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\MedicineType.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Lookups\\MedicineType.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\MedicineType.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Lookups\\MedicineType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T21:40:58.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "StatusType.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\StatusType.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Lookups\\StatusType.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\StatusType.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Lookups\\StatusType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T21:40:42.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "VetAppointmentType.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\VetAppointmentType.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Lookups\\VetAppointmentType.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\VetAppointmentType.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Lookups\\VetAppointmentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T21:38:29.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RecordType.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\RecordType.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Entities\\Lookups\\RecordType.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Entities\\Lookups\\RecordType.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Entities\\Lookups\\RecordType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T21:35:29.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T20:46:29.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\Class1.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "OlaVet.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T20:34:15.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "OlaVet.DataSeeder.csproj",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.DataSeeder\\OlaVet.DataSeeder.csproj",
+              "RelativeDocumentMoniker": "OlaVet.DataSeeder\\OlaVet.DataSeeder.csproj",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.DataSeeder\\OlaVet.DataSeeder.csproj",
+              "RelativeToolTip": "OlaVet.DataSeeder\\OlaVet.DataSeeder.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-18T20:33:33.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\Class1.cs",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\Class1.cs",
+              "RelativeToolTip": "OlaVet.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T20:33:26.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "OlaVet.Domain.csproj",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\OlaVet.Domain.csproj",
+              "RelativeDocumentMoniker": "OlaVet.Domain\\OlaVet.Domain.csproj",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Domain\\OlaVet.Domain.csproj",
+              "RelativeToolTip": "OlaVet.Domain\\OlaVet.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-18T20:33:20.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "OlaVet.Infrastructure.csproj",
+              "DocumentMoniker": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\OlaVet.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "OlaVet.Infrastructure\\OlaVet.Infrastructure.csproj",
+              "ToolTip": "F:\\learning\\Projects\\OlaVet\\OlaVet.Infrastructure\\OlaVet.Infrastructure.csproj",
+              "RelativeToolTip": "OlaVet.Infrastructure\\OlaVet.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-18T20:33:15.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+@if (loading) {
+  <app-loading-spinner message="Loading vet profile…" />
+} @else if (vet) {
+  <a routerLink="/vets" class="back-link">← Back to Veterinarians</a>
+  <div class="profile-header">
+    <div class="avatar">👨‍⚕️</div>
+    <div class="profile-info">
+      <h1>{{ vet.vetName }}</h1>
+      <p class="specialization">{{ vet.specialization }}</p>
+      <div class="contact-row">
+        <span>📧 {{ vet.email }}</span>
+        <span>📞 {{ vet.contactNumber }}</span>
+        <span>💰 {{ vet.fee | currency }}</span>
+      </div>
+    </div>
+    <a [routerLink]="['edit']" class="btn btn-outline">Edit Profile</a>
+  </div>
+
+  <div class="tabs">
+    <button [class.active]="activeTab === 'info'" (click)="activeTab = 'info'">Profile</button>
+    <button [class.active]="activeTab === 'reviews'" (click)="activeTab = 'reviews'">Reviews</button>
+    <button [class.active]="activeTab === 'schedule'" (click)="activeTab = 'schedule'">Schedule</button>
+  </div>
+
+  @if (activeTab === 'info') {
+    <div class="info-grid">
+      <div class="card">
+        <h3>Qualifications</h3>
+        @if (vet.qualifications?.length) {
+          @for (q of vet.qualifications; track q) {
+            <div class="qual-item">
+              <strong>{{ q.degree }}</strong>
+              <span>{{ q.institution }} ({{ q.year }})</span>
+            </div>
+          }
+        } @else {
+          <p class="no-data">No qualifications listed.</p>
+        }
+      </div>
+      <div class="card">
+        <h3>Services Offered</h3>
+        @if (vet.services?.length) {
+          <div class="service-tags">
+            @for (s of vet.services; track s) {
+              <span class="tag">{{ s.serviceName }}</span>
+            }
+          </div>
+        } @else {
+          <p class="no-data">No services listed.</p>
+        }
+      </div>
+      @if (ratingDistribution) {
+        <div class="card">
+          <h3>Rating Distribution</h3>
+          @for (item of [5,4,3,2,1]; track item) {
+            <div class="rating-bar">
+              <span class="label">{{ item }}★</span>
+              <div class="bar"><div class="fill" [style.width.%]="(ratingDistribution['star' + item] / (ratingDistribution.total || 1)) * 100"></div></div>
+              <span class="count">{{ ratingDistribution['star' + item] || 0 }}</span>
+            </div>
+          }
+        </div>
+      }
+    </div>
+  }
+
+  @if (activeTab === 'reviews') {
+    <div class="reviews-list">
+      @for (review of reviews; track review.vetReviewId) {
+        <div class="review-card">
+          <div class="review-header">
+            <span class="stars">{{ renderStars(review.rating) }}</span>
+            <span class="review-date">{{ review.reviewDateTime | timeAgo }}</span>
+          </div>
+          <p class="review-comment">{{ review.comments }}</p>
+          <span class="reviewer">— {{ review.ownerName }}</span>
+        </div>
+      } @empty {
+        <p class="no-data">No reviews yet.</p>
+      }
+    </div>
+  }
+
+  @if (activeTab === 'schedule') {
+    <div class="card">
+      <h3>Availability</h3>
+      @if (vet.availability?.length) {
+        <div class="schedule-grid">
+          @for (slot of vet.availability; track slot) {
+            <div class="schedule-item">
+              <span class="day">{{ slot.dayOfWeek }}</span>
+              <span class="time">{{ slot.startTime }} – {{ slot.endTime }}</span>
+            </div>
+          }
+        </div>
+      } @else {
+        <p class="no-data">No availability set.</p>
+      }
+    </div>
+  }
+}

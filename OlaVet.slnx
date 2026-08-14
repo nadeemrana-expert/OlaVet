@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="OlaVet.API/OlaVet.API.csproj" />
+  <Project Path="OlaVet.Application/OlaVet.Application.csproj" />
+  <Project Path="OlaVet.DataSeeder/OlaVet.DataSeeder.csproj" />
+  <Project Path="OlaVet.Domain/OlaVet.Domain.csproj" />
+  <Project Path="OlaVet.Infrastructure/OlaVet.Infrastructure.csproj" />
+  <Project Path="OlaVet.Tests/OlaVet.Tests.csproj" />
+</Solution>

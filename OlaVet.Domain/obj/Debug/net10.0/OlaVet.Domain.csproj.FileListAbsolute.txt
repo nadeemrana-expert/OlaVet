@@ -1,0 +1,11 @@
+F:\learning\Projects\OlaVet\OlaVet.Domain\bin\Debug\net10.0\OlaVet.Domain.deps.json
+F:\learning\Projects\OlaVet\OlaVet.Domain\bin\Debug\net10.0\OlaVet.Domain.dll
+F:\learning\Projects\OlaVet\OlaVet.Domain\bin\Debug\net10.0\OlaVet.Domain.pdb
+F:\learning\Projects\OlaVet\OlaVet.Domain\obj\Debug\net10.0\OlaVet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\learning\Projects\OlaVet\OlaVet.Domain\obj\Debug\net10.0\OlaVet.Domain.AssemblyInfoInputs.cache
+F:\learning\Projects\OlaVet\OlaVet.Domain\obj\Debug\net10.0\OlaVet.Domain.AssemblyInfo.cs
+F:\learning\Projects\OlaVet\OlaVet.Domain\obj\Debug\net10.0\OlaVet.Domain.csproj.CoreCompileInputs.cache
+F:\learning\Projects\OlaVet\OlaVet.Domain\obj\Debug\net10.0\OlaVet.Domain.dll
+F:\learning\Projects\OlaVet\OlaVet.Domain\obj\Debug\net10.0\refint\OlaVet.Domain.dll
+F:\learning\Projects\OlaVet\OlaVet.Domain\obj\Debug\net10.0\OlaVet.Domain.pdb
+F:\learning\Projects\OlaVet\OlaVet.Domain\obj\Debug\net10.0\ref\OlaVet.Domain.dll

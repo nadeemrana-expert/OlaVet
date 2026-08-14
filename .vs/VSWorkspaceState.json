@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "\\OlaVet.API",
+    "\\OlaVet.Application\\obj",
+    "\\OlaVet.Domain\\bin",
+    "\\OlaVet.Domain\\bin\\Debug",
+    "\\OlaVet.Domain\\bin\\Release",
+    "\\OlaVet.Domain\\Common",
+    "\\OlaVet.Domain\\Entities",
+    "\\OlaVet.Infrastructure\\Data",
+    "\\OlaVet.Infrastructure\\Data\\Configurations"
+  ],
+  "PreviewInSolutionExplorer": false
+}

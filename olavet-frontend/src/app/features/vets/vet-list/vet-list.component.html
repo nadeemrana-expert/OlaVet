@@ -1,0 +1,80 @@
+<div class="page-header">
+  <div>
+    <h1>Veterinarians</h1>
+    <p class="subtitle">Browse and manage veterinary staff</p>
+  </div>
+  <div class="header-actions">
+    <div class="view-toggle">
+      <button [class.active]="viewMode === 'grid'" (click)="viewMode = 'grid'">▦</button>
+      <button [class.active]="viewMode === 'table'" (click)="viewMode = 'table'">☰</button>
+    </div>
+    <a routerLink="new" class="btn btn-primary">+ Add Vet</a>
+  </div>
+</div>
+
+<div class="toolbar">
+  <app-search-box placeholder="Search by name or specialization…" (searchChange)="onSearch($event)" />
+</div>
+
+@if (loading) {
+  <app-loading-spinner message="Loading veterinarians…" />
+} @else if (vets.length === 0) {
+  <app-empty-state icon="👨‍⚕️" title="No veterinarians found" message="Try adjusting your search." />
+} @else {
+  @if (viewMode === 'grid') {
+    <div class="vet-grid">
+      @for (vet of vets; track vet.vetId) {
+        <div class="vet-card">
+          <div class="vet-avatar">👨‍⚕️</div>
+          <h3><a [routerLink]="[vet.vetId]">{{ vet.vetName }}</a></h3>
+          <p class="specialization">{{ vet.specialization }}</p>
+          <div class="rating">
+            <span class="stars">{{ renderStars(vet.averageRating) }}</span>
+            <span class="rating-num">{{ vet.averageRating | number:'1.1-1' }}</span>
+            <span class="review-count">({{ vet.reviewCount }})</span>
+          </div>
+          <div class="vet-meta">
+            <span>💰 {{ vet.fee | currency }}</span>
+            <span>📞 {{ vet.contactNumber }}</span>
+          </div>
+          <a [routerLink]="[vet.vetId]" class="view-btn">View Profile →</a>
+        </div>
+      }
+    </div>
+  } @else {
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Specialization</th>
+            <th>Rating</th>
+            <th>Fee</th>
+            <th>Contact</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (vet of vets; track vet.vetId) {
+            <tr>
+              <td><a [routerLink]="[vet.vetId]">{{ vet.vetName }}</a></td>
+              <td>{{ vet.specialization }}</td>
+              <td>⭐ {{ vet.averageRating | number:'1.1-1' }} ({{ vet.reviewCount }})</td>
+              <td>{{ vet.fee | currency }}</td>
+              <td>{{ vet.contactNumber }}</td>
+              <td><a [routerLink]="[vet.vetId]" class="btn-sm">View</a></td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  }
+
+  @if (result) {
+    <app-pagination
+      [currentPage]="result.page"
+      [totalPages]="result.totalPages"
+      [totalCount]="result.totalCount"
+      (pageChange)="onPageChange($event)" />
+  }
+}

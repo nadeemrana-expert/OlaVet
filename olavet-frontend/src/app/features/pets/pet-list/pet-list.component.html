@@ -1,0 +1,55 @@
+<div class="page-header">
+  <div>
+    <h1>Pets</h1>
+    <p class="subtitle">Manage all registered pets</p>
+  </div>
+  <a routerLink="new" class="btn btn-primary">+ Add Pet</a>
+</div>
+
+<div class="toolbar">
+  <app-search-box placeholder="Search pets…" (searchChange)="onSearch($event)" />
+  <select class="species-select" (change)="onSpeciesFilter($any($event.target).value)">
+    <option value="">All Species</option>
+    <option value="Dog">Dog</option>
+    <option value="Cat">Cat</option>
+    <option value="Bird">Bird</option>
+    <option value="Rabbit">Rabbit</option>
+    <option value="Other">Other</option>
+  </select>
+</div>
+
+@if (loading) {
+  <app-loading-spinner message="Loading pets…" />
+} @else if (!result || result.items.length === 0) {
+  <app-empty-state icon="🐾" title="No pets found" message="Try adjusting your filters or add a new pet." />
+} @else {
+  <div class="pet-grid">
+    @for (pet of result.items; track pet.petId) {
+      <div class="pet-card">
+        <div class="pet-avatar">{{ pet.species === 'Dog' ? '🐕' : pet.species === 'Cat' ? '🐈' : '🐾' }}</div>
+        <div class="pet-info">
+          <h3>
+            <a [routerLink]="[pet.petId]">{{ pet.name }}</a>
+          </h3>
+          <span class="species-badge">{{ pet.species }}</span>
+          <p class="breed">{{ pet.breed }}</p>
+          <div class="pet-meta">
+            <span>Age: {{ pet.age }}</span>
+            <span>{{ pet.gender }}</span>
+            <span>{{ pet.petWeight }} kg</span>
+          </div>
+        </div>
+        <div class="pet-actions">
+          <a [routerLink]="[pet.petId, 'edit']" class="btn-icon" title="Edit">✏️</a>
+          <button class="btn-icon danger" (click)="deletePet(pet.petId)" title="Delete">🗑️</button>
+        </div>
+      </div>
+    }
+  </div>
+
+  <app-pagination
+    [currentPage]="result.page"
+    [totalPages]="result.totalPages"
+    [totalCount]="result.totalCount"
+    (pageChange)="onPageChange($event)" />
+}

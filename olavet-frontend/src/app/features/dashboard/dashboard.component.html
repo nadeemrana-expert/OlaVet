@@ -1,0 +1,192 @@
+@if (loading) {
+  <app-loading-spinner message="Loading dashboard…" />
+} @else {
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- ADMIN STATS -->
+  <!-- ═══════════════════════════════════════════════ -->
+  @if (stats?.role === 'Admin') {
+    <section class="stats-row">
+      <app-stat-card icon="🐾" label="Total Pets" [value]="stats?.pets ?? 0" color="#667eea" />
+      <app-stat-card icon="👤" label="Pet Owners" [value]="stats?.petOwners ?? 0" color="#764ba2" />
+      <app-stat-card icon="👨‍⚕️" label="Veterinarians" [value]="stats?.vets ?? 0" color="#48bb78" />
+      <app-stat-card icon="📅" label="Appointments" [value]="(stats?.vetAppointments ?? 0) + (stats?.labAppointments ?? 0)" color="#ed8936" />
+    </section>
+  }
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- PET OWNER STATS -->
+  <!-- ═══════════════════════════════════════════════ -->
+  @if (stats?.role === 'PetOwner') {
+    <section class="stats-row">
+      <app-stat-card icon="🐾" label="My Pets" [value]="stats?.pets ?? 0" color="#667eea" />
+      <app-stat-card icon="📅" label="My Appointments" [value]="(stats?.vetAppointments ?? 0) + (stats?.labAppointments ?? 0)" color="#ed8936" />
+      <app-stat-card icon="📦" label="My Orders" [value]="stats?.medicineOrders ?? 0" color="#764ba2" />
+      <app-stat-card icon="💰" label="Wallet Balance" [value]="stats?.walletBalance ?? 0" color="#48bb78" />
+    </section>
+  }
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- VET STATS -->
+  <!-- ═══════════════════════════════════════════════ -->
+  @if (stats?.role === 'Vet') {
+    <section class="stats-row">
+      <app-stat-card icon="📅" label="Today's Appointments" [value]="stats?.todayAppointments ?? 0" color="#667eea" />
+      <app-stat-card icon="📅" label="This Week" [value]="stats?.weekAppointments ?? 0" color="#ed8936" />
+      <app-stat-card icon="👥" label="Total Patients" [value]="stats?.totalPatients ?? 0" color="#764ba2" />
+      <app-stat-card icon="📋" label="All Appointments" [value]="stats?.vetAppointments ?? 0" color="#48bb78" />
+    </section>
+  }
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LAB TECHNICIAN STATS -->
+  <!-- ═══════════════════════════════════════════════ -->
+  @if (stats?.role === 'LabTechnician') {
+    <section class="stats-row">
+      <app-stat-card icon="🔬" label="Total Lab Appointments" [value]="stats?.labAppointments ?? 0" color="#667eea" />
+      <app-stat-card icon="⏳" label="Pending Tests" [value]="stats?.pendingTests ?? 0" color="#ed8936" />
+      <app-stat-card icon="✅" label="Completed Tests" [value]="stats?.completedTests ?? 0" color="#48bb78" />
+    </section>
+  }
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- STORE MANAGER STATS -->
+  <!-- ═══════════════════════════════════════════════ -->
+  @if (stats?.role === 'StoreManager') {
+    <section class="stats-row">
+      <app-stat-card icon="📦" label="Total Orders" [value]="stats?.medicineOrders ?? 0" color="#667eea" />
+      <app-stat-card icon="⏳" label="Pending Orders" [value]="stats?.pendingOrders ?? 0" color="#ed8936" />
+      <app-stat-card icon="💊" label="Medicines" [value]="stats?.medicines ?? 0" color="#48bb78" />
+    </section>
+  }
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CHARTS ROW — Admin only: Revenue + Species -->
+  <!-- ═══════════════════════════════════════════════ -->
+  @if (stats?.role === 'Admin') {
+    <section class="charts-row">
+      <div class="chart-card wide">
+        <h3>Revenue Trend</h3>
+        <div class="chart-wrapper">
+          <canvas baseChart
+            [data]="revenueChartData"
+            [options]="revenueChartOptions"
+            type="line">
+          </canvas>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <h3>Species Distribution</h3>
+        <div class="chart-wrapper">
+          <canvas baseChart
+            [data]="speciesChartData"
+            [options]="speciesChartOptions"
+            type="doughnut">
+          </canvas>
+        </div>
+      </div>
+    </section>
+  }
+
+  <!-- Species chart for Vet (without revenue) -->
+  @if (stats?.role === 'Vet') {
+    <section class="charts-row" style="grid-template-columns: 1fr;">
+      <div class="chart-card">
+        <h3>Species Distribution</h3>
+        <div class="chart-wrapper">
+          <canvas baseChart
+            [data]="speciesChartData"
+            [options]="speciesChartOptions"
+            type="doughnut">
+          </canvas>
+        </div>
+      </div>
+    </section>
+  }
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LOWER ROW — Filtered by role -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <section class="lower-row">
+    <!-- Appointment Status — Admin, Vet, PetOwner -->
+    @if (stats?.role === 'Admin' || stats?.role === 'Vet' || stats?.role === 'PetOwner') {
+      <div class="chart-card">
+        <h3>{{ stats?.role === 'Admin' ? 'Appointment Status' : 'My Appointment Status' }}</h3>
+        <div class="chart-wrapper">
+          <canvas baseChart
+            [data]="appointmentChartData"
+            [options]="appointmentChartOptions"
+            type="bar">
+          </canvas>
+        </div>
+      </div>
+    }
+
+    <!-- Payment Summary — Admin only -->
+    @if (stats?.role === 'Admin' && paymentStats) {
+      <div class="info-card">
+        <h3>Payment Summary</h3>
+        <div class="payment-grid">
+          <div class="payment-item">
+            <span class="payment-label">Total Revenue</span>
+            <span class="payment-value">\${{ $any(paymentStats).totalRevenue | number:'1.2-2' }}</span>
+          </div>
+          <div class="payment-item">
+            <span class="payment-label">Pending</span>
+            <span class="payment-value warning">\${{ $any(paymentStats).pendingPayments | number:'1.2-2' }}</span>
+          </div>
+          <div class="payment-item">
+            <span class="payment-label">Completed</span>
+            <span class="payment-value success">\${{ $any(paymentStats).completedPayments | number:'1.2-2' }}</span>
+          </div>
+          <div class="payment-item">
+            <span class="payment-label">Refunded</span>
+            <span class="payment-value danger">\${{ $any(paymentStats).refundedPayments | number:'1.2-2' }}</span>
+          </div>
+        </div>
+      </div>
+    }
+
+    <!-- Top Performers — Admin only -->
+    @if (stats?.role === 'Admin' && topPerformers) {
+      <div class="info-card">
+        <h3>Top Performers</h3>
+        <div class="performers-list">
+          @for (vet of topPerformers.topVets; track vet.vetId) {
+            <div class="performer-row">
+              <span class="performer-name">{{ vet.vetName }}</span>
+              <span class="performer-rating">{{ vet.specialization }}</span>
+            </div>
+          }
+        </div>
+      </div>
+    }
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- RECENT REVIEWS — All roles -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <section class="reviews-section">
+    <div class="info-card full-width">
+      <div class="card-header">
+        <h3>Recent Reviews</h3>
+        <a routerLink="/reviews" class="view-all">View All →</a>
+      </div>
+      <div class="reviews-list">
+        @for (review of recentReviews; track review.reviewId) {
+          <div class="review-row">
+            <div class="review-rating">
+              @for (star of [1,2,3,4,5]; track star) {
+                <span [class.filled]="star <= review.rating">★</span>
+              }
+            </div>
+            <p class="review-comment">{{ review.comments }}</p>
+            <span class="review-date">{{ review.reviewDateTime | date:'mediumDate' }}</span>
+          </div>
+        } @empty {
+          <p class="no-data">No reviews yet.</p>
+        }
+      </div>
+    </div>
+  </section>
+}

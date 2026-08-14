@@ -1,0 +1,53 @@
+<div class="page-header">
+  <div>
+    <h1>Appointments</h1>
+    <p class="subtitle">Manage vet and lab appointments</p>
+  </div>
+  <a routerLink="new" class="btn btn-primary">+ New Appointment</a>
+</div>
+
+<div class="tabs">
+  <button [class.active]="activeTab === 'vet'" (click)="switchTab('vet')">🏥 Vet Appointments</button>
+  <button [class.active]="activeTab === 'lab'" (click)="switchTab('lab')">🔬 Lab Appointments</button>
+</div>
+
+@if (loading) {
+  <app-loading-spinner message="Loading appointments…" />
+} @else if (!result || result.items.length === 0) {
+  <app-empty-state icon="📅" title="No appointments" message="No appointments found. Create a new one!" />
+} @else {
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th>Date & Time</th>
+          <th>Pet</th>
+          <th>Owner</th>
+          <th>{{ activeTab === 'vet' ? 'Veterinarian' : 'Lab' }}</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (appt of result.items; track appt) {
+          <tr>
+            <td>{{ appt.appointmentDateTime | date:'medium' }}</td>
+            <td>{{ appt.petName }}</td>
+            <td>{{ appt.owner?.ownerName || '—' }}</td>
+            <td>{{ appt.vetName || appt.labName || '—' }}</td>
+            <td><span [class]="appt.status | statusBadge">{{ appt.status }}</span></td>
+            <td>
+              <a [routerLink]="[appt.vetAppointmentId || appt.labAppointmentId]" class="btn-sm">View</a>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <app-pagination
+    [currentPage]="result.page"
+    [totalPages]="result.totalPages"
+    [totalCount]="result.totalCount"
+    (pageChange)="onPageChange($event)" />
+}

@@ -1,0 +1,105 @@
+<div class="auth-container">
+  <div class="auth-card">
+    <div class="auth-header">
+      <h1>🐾 OlaVet</h1>
+      <p>Create your account</p>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="auth-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input id="firstName" type="text" formControlName="firstName" placeholder="John"
+                 [class.invalid]="f['firstName'].touched && f['firstName'].invalid" />
+          @if (f['firstName'].touched && f['firstName'].errors) {
+            <span class="error-text">First name is required (min 2 chars)</span>
+          }
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input id="lastName" type="text" formControlName="lastName" placeholder="Doe"
+                 [class.invalid]="f['lastName'].touched && f['lastName'].invalid" />
+          @if (f['lastName'].touched && f['lastName'].errors) {
+            <span class="error-text">Last name is required (min 2 chars)</span>
+          }
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" type="email" formControlName="email" placeholder="you@example.com"
+               [class.invalid]="f['email'].touched && f['email'].invalid" />
+        @if (f['email'].touched && f['email'].errors) {
+          <span class="error-text">
+            @if (f['email'].errors['required']) { Email is required }
+            @if (f['email'].errors['email']) { Enter a valid email }
+          </span>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number <span class="optional">(optional)</span></label>
+        <input id="phoneNumber" type="tel" formControlName="phoneNumber" placeholder="+1 234 567 8900" />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <div class="password-wrapper">
+          <input id="password" [type]="showPassword ? 'text' : 'password'"
+                 formControlName="password" placeholder="Min 8 chars, uppercase, number, symbol"
+                 [class.invalid]="f['password'].touched && f['password'].invalid" />
+          <button type="button" class="toggle-password" (click)="togglePassword()">
+            {{ showPassword ? '🙈' : '👁️' }}
+          </button>
+        </div>
+        @if (f['password'].touched && f['password'].errors) {
+          <span class="error-text">Password must have 8+ chars with uppercase, lowercase, number & symbol</span>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input id="confirmPassword" type="password" formControlName="confirmPassword"
+               placeholder="Re-enter your password"
+               [class.invalid]="f['confirmPassword'].touched && f['confirmPassword'].invalid" />
+        @if (f['confirmPassword'].touched && f['confirmPassword'].errors) {
+          <span class="error-text">
+            @if (f['confirmPassword'].errors['mismatch']) { Passwords do not match }
+            @if (f['confirmPassword'].errors['required']) { Please confirm your password }
+          </span>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="role">Register as</label>
+        <select id="role" formControlName="role">
+          <option value="PetOwner">Pet Owner</option>
+          <option value="Vet">Veterinarian</option>
+        </select>
+      </div>
+
+      <div class="form-group checkbox-group">
+        <label>
+          <input type="checkbox" formControlName="gdprConsent" />
+          I agree to the <a href="#" target="_blank">Terms of Service</a> and
+          <a href="#" target="_blank">Privacy Policy</a>
+        </label>
+        @if (f['gdprConsent'].touched && f['gdprConsent'].errors) {
+          <span class="error-text">You must accept the terms to continue</span>
+        }
+      </div>
+
+      <button type="submit" class="btn btn-primary" [disabled]="loading">
+        @if (loading) {
+          <span class="spinner"></span> Creating account...
+        } @else {
+          Create Account
+        }
+      </button>
+    </form>
+
+    <div class="auth-footer">
+      <p>Already have an account? <a routerLink="/auth/login">Sign in</a></p>
+    </div>
+  </div>
+</div>

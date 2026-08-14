@@ -1,0 +1,15 @@
+F:\learning\Projects\OlaVet\OlaVet.Application\bin\Debug\net10.0\OlaVet.Application.deps.json
+F:\learning\Projects\OlaVet\OlaVet.Application\bin\Debug\net10.0\OlaVet.Application.dll
+F:\learning\Projects\OlaVet\OlaVet.Application\bin\Debug\net10.0\OlaVet.Application.pdb
+F:\learning\Projects\OlaVet\OlaVet.Application\bin\Debug\net10.0\OlaVet.Domain.dll
+F:\learning\Projects\OlaVet\OlaVet.Application\bin\Debug\net10.0\OlaVet.Domain.pdb
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\OlaVet.Application.csproj.AssemblyReference.cache
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\OlaVet.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\OlaVet.Application.AssemblyInfoInputs.cache
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\OlaVet.Application.AssemblyInfo.cs
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\OlaVet.Application.csproj.CoreCompileInputs.cache
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\OlaVet.A.A90B397A.Up2Date
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\OlaVet.Application.dll
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\refint\OlaVet.Application.dll
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\OlaVet.Application.pdb
+F:\learning\Projects\OlaVet\OlaVet.Application\obj\Debug\net10.0\ref\OlaVet.Application.dll

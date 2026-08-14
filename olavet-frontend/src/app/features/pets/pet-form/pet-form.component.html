@@ -1,0 +1,74 @@
+<div class="form-page">
+  <a routerLink="/pets" class="back-link">← Back to Pets</a>
+  <h1>{{ isEdit ? 'Edit Pet' : 'Add New Pet' }}</h1>
+
+  <form [formGroup]="form" (ngSubmit)="submit()" class="form-card">
+    <div class="form-group">
+      <label for="name">Pet Name *</label>
+      <input id="name" formControlName="name" placeholder="e.g. Buddy" />
+      @if (form.get('name')?.touched && form.get('name')?.hasError('required')) {
+        <span class="error">Name is required</span>
+      }
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="species">Species *</label>
+        <select id="species" formControlName="species">
+          <option value="">Select species</option>
+          <option value="Dog">Dog</option>
+          <option value="Cat">Cat</option>
+          <option value="Bird">Bird</option>
+          <option value="Rabbit">Rabbit</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="breed">Breed</label>
+        <input id="breed" formControlName="breed" placeholder="e.g. Labrador" />
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="age">Age (years) *</label>
+        <input id="age" formControlName="age" type="number" min="0" />
+      </div>
+      <div class="form-group">
+        <label for="petWeight">Weight (kg)</label>
+        <input id="petWeight" formControlName="petWeight" type="number" min="0" step="0.1" />
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="gender">Gender *</label>
+        <select id="gender" formControlName="gender">
+          <option value="">Select gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="color">Color</label>
+        <input id="color" formControlName="color" placeholder="e.g. Golden" />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="petOwnerId">Owner ID *</label>
+      <input id="petOwnerId" formControlName="petOwnerId" type="number" min="1" />
+      @if (form.get('petOwnerId')?.touched && form.get('petOwnerId')?.hasError('required')) {
+        <span class="error">Owner is required</span>
+      }
+    </div>
+
+    <div class="form-actions">
+      <a routerLink="/pets" class="btn btn-cancel">Cancel</a>
+      <button type="submit" class="btn btn-primary" [disabled]="loading">
+        @if (loading) { <span class="spinner"></span> }
+        {{ isEdit ? 'Update Pet' : 'Create Pet' }}
+      </button>
+    </div>
+  </form>
+</div>

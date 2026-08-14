@@ -1,0 +1,17 @@
+f:\learning\Projects\OlaVet\TempHash\bin\Debug\net10.0\TempHash.exe
+f:\learning\Projects\OlaVet\TempHash\bin\Debug\net10.0\TempHash.deps.json
+f:\learning\Projects\OlaVet\TempHash\bin\Debug\net10.0\TempHash.runtimeconfig.json
+f:\learning\Projects\OlaVet\TempHash\bin\Debug\net10.0\TempHash.dll
+f:\learning\Projects\OlaVet\TempHash\bin\Debug\net10.0\TempHash.pdb
+f:\learning\Projects\OlaVet\TempHash\bin\Debug\net10.0\BCrypt.Net-Next.dll
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\TempHash.csproj.AssemblyReference.cache
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\TempHash.GeneratedMSBuildEditorConfig.editorconfig
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\TempHash.AssemblyInfoInputs.cache
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\TempHash.AssemblyInfo.cs
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\TempHash.csproj.CoreCompileInputs.cache
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\TempHash.csproj.Up2Date
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\TempHash.dll
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\refint\TempHash.dll
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\TempHash.pdb
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\TempHash.genruntimeconfig.cache
+f:\learning\Projects\OlaVet\TempHash\obj\Debug\net10.0\ref\TempHash.dll

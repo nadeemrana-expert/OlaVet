@@ -1,0 +1,64 @@
+<div class="auth-container">
+  <div class="auth-card">
+    <div class="auth-header">
+      <h1>🐾 OlaVet</h1>
+      <p>Sign in to your account</p>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="auth-form">
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+          id="email"
+          type="email"
+          formControlName="email"
+          placeholder="you@example.com"
+          [class.invalid]="f['email'].touched && f['email'].invalid"
+        />
+        @if (f['email'].touched && f['email'].errors) {
+          <span class="error-text">
+            @if (f['email'].errors['required']) { Email is required }
+            @if (f['email'].errors['email']) { Enter a valid email address }
+          </span>
+        }
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label for="password">Password</label>
+        <div class="password-wrapper">
+          <input
+            id="password"
+            [type]="showPassword ? 'text' : 'password'"
+            formControlName="password"
+            placeholder="••••••••"
+            [class.invalid]="f['password'].touched && f['password'].invalid"
+          />
+          <button type="button" class="toggle-password" (click)="togglePassword()">
+            {{ showPassword ? '🙈' : '👁️' }}
+          </button>
+        </div>
+        @if (f['password'].touched && f['password'].errors) {
+          <span class="error-text">
+            @if (f['password'].errors['required']) { Password is required }
+            @if (f['password'].errors['minlength']) { Password must be at least 6 characters }
+          </span>
+        }
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" class="btn btn-primary" [disabled]="loading">
+        @if (loading) {
+          <span class="spinner"></span> Signing in...
+        } @else {
+          Sign In
+        }
+      </button>
+    </form>
+
+    <div class="auth-footer">
+      <p>Don't have an account? <a routerLink="/auth/register">Register</a></p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+.back-link { display: inline-block; margin-bottom: 1rem; color: #667eea; text-decoration: none; &:hover { text-decoration: underline; } }
+.profile-header {
+  display: flex; align-items: center; gap: 1.25rem; background: #fff; border-radius: 12px;
+  padding: 1.5rem 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 1.5rem;
+}
+.avatar { font-size: 3rem; width: 72px; height: 72px; background: #f0f4ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.profile-info { flex: 1;
+  h1 { margin: 0; font-size: 1.5rem; }
+}
+.specialization { color: #888; margin: 0.25rem 0 0.5rem; }
+.contact-row { display: flex; gap: 1.25rem; font-size: 0.85rem; color: #666; }
+.btn-outline { padding: 0.5rem 1.25rem; border: 1px solid #667eea; color: #667eea; border-radius: 8px; text-decoration: none; font-weight: 600; &:hover { background: #667eea; color: #fff; } }
+.tabs {
+  display: flex; gap: 0; margin-bottom: 1.5rem; border-bottom: 2px solid #eee;
+  button { padding: 0.75rem 1.5rem; background: none; border: none; border-bottom: 2px solid transparent; margin-bottom: -2px; cursor: pointer; font-weight: 500; color: #999; font-size: 0.95rem;
+    &.active { color: #667eea; border-bottom-color: #667eea; } &:hover { color: #333; } }
+}
+.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
+.card { background: #fff; border-radius: 12px; padding: 1.25rem 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  h3 { margin: 0 0 1rem; font-size: 1rem; color: #333; } }
+.qual-item { display: flex; flex-direction: column; padding: 0.4rem 0; border-bottom: 1px solid #f7f7f7;
+  strong { font-size: 0.9rem; } span { font-size: 0.8rem; color: #888; } }
+.service-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.tag { padding: 4px 12px; border-radius: 16px; background: #f0f4ff; color: #667eea; font-size: 0.8rem; font-weight: 500; }
+.rating-bar { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;
+  .label { width: 30px; font-size: 0.85rem; color: #888; }
+  .bar { flex: 1; height: 8px; background: #edf2f7; border-radius: 4px; overflow: hidden; }
+  .fill { height: 100%; background: #ecc94b; border-radius: 4px; transition: width 0.3s; }
+  .count { width: 30px; font-size: 0.8rem; color: #999; text-align: right; }
+}
+.reviews-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.review-card { background: #fff; border-radius: 10px; padding: 1rem 1.25rem; box-shadow: 0 2px 6px rgba(0,0,0,0.04); }
+.review-header { display: flex; justify-content: space-between; margin-bottom: 0.5rem;
+  .stars { color: #ecc94b; font-size: 1rem; } .review-date { font-size: 0.8rem; color: #999; } }
+.review-comment { margin: 0 0 0.5rem; font-size: 0.9rem; color: #555; }
+.reviewer { font-size: 0.8rem; color: #888; }
+.schedule-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.5rem; }
+.schedule-item { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid #f7f7f7;
+  .day { font-weight: 500; font-size: 0.9rem; } .time { font-size: 0.85rem; color: #888; } }
+.no-data { text-align: center; color: #aaa; padding: 1rem; }

@@ -1,0 +1,62 @@
+@if (loading) {
+  <app-loading-spinner message="Loading pet details…" />
+} @else if (pet) {
+  <div class="detail-header">
+    <a routerLink="/pets" class="back-link">← Back to Pets</a>
+    <div class="header-row">
+      <div class="pet-avatar">{{ pet.species === 'Dog' ? '🐕' : pet.species === 'Cat' ? '🐈' : '🐾' }}</div>
+      <div>
+        <h1>{{ pet.name }}</h1>
+        <span class="species-badge">{{ pet.species }} — {{ pet.breed }}</span>
+      </div>
+      <a [routerLink]="['edit']" class="btn btn-outline">Edit</a>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button [class.active]="activeTab === 'info'" (click)="activeTab = 'info'">Pet Info</button>
+    <button [class.active]="activeTab === 'medical'" (click)="activeTab = 'medical'">Medical History</button>
+  </div>
+
+  @if (activeTab === 'info') {
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>Details</h3>
+        <div class="info-row"><span>Age</span><strong>{{ pet.age }}</strong></div>
+        <div class="info-row"><span>Weight</span><strong>{{ pet.petWeight }} kg</strong></div>
+        <div class="info-row"><span>Gender</span><strong>{{ pet.gender }}</strong></div>
+        <div class="info-row"><span>Color</span><strong>{{ pet.color }}</strong></div>
+      </div>
+      @if (pet.owner) {
+        <div class="info-card">
+          <h3>Owner</h3>
+          <div class="info-row"><span>Name</span><strong>{{ pet.owner.ownerName }}</strong></div>
+          <div class="info-row"><span>Email</span><strong>{{ pet.owner.email }}</strong></div>
+          <div class="info-row"><span>Phone</span><strong>{{ pet.owner.contactNumber }}</strong></div>
+          <a [routerLink]="['/pet-owners', pet.owner.petOwnerId]" class="link">View Owner →</a>
+        </div>
+      }
+    </div>
+  }
+
+  @if (activeTab === 'medical') {
+    <div class="medical-list">
+      @for (record of medicalHistory; track record.recordId) {
+        <div class="medical-card">
+          <div class="record-date">{{ record.recordDate | date:'mediumDate' }}</div>
+          <div class="record-body">
+            <span class="record-type">{{ record.recordType }}</span>
+            <p class="diagnosis"><strong>Diagnosis:</strong> {{ record.diagnosis }}</p>
+            <p class="treatment"><strong>Treatment:</strong> {{ record.treatmentDescription }}</p>
+            @if (record.vetName) {
+              <span class="vet-badge">👨‍⚕️ {{ record.vetName }}</span>
+            }
+          </div>
+        </div>
+      } @empty {
+        <p class="no-data">No medical records found.</p>
+      }
+    </div>
+  }
+}
